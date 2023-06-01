@@ -1,0 +1,55 @@
+h1{
+    color: aqua;
+    font-size: 2em;
+}
+
+#name{
+    color: blueviolet;
+    font-size: 2em; 
+}
+
+.two{
+    color: green;
+    font-size: 2em;
+}
+
+.one, .third{
+    color: chartreuse;
+    font-size: 2em;
+}
+
+div.zwei > h1.one{
+    color: coral;
+    font-size: 2em;
+}
+
+div.ein{
+    background-color: lightblue;
+    font-size: 2em;
+    color: navy;
+}
+
+div.zwei{
+    background-color: yellow;
+    font-size: 2em;
+}
+
+span.third{
+    color: darkslategray;
+    font-size: 2em;
+}
+
+div.ein > #name::first-letter{
+    color: deeppink;
+    }
+
+div.ein > p#name{
+    color: grey;
+    font-size: 2em;
+}
+
+div.zwei > p{
+    color: darkred;
+    font-size: 2em;
+}
+
